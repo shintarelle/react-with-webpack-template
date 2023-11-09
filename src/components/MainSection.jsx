@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../scss/mainsection'
+import styles from '../scss/Mainsection.module'
 
 export default function MainSection() {
   return (

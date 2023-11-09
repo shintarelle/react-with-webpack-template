@@ -3,7 +3,7 @@ import styles from './styles.scss';
 
 import Header from './components/Header';
 import MainSection from './components/MainSection';
-import Section2 from './components/section2';
+import Section2 from './components/Section2';
 
 
 
