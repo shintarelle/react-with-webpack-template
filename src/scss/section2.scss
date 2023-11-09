@@ -1,0 +1,59 @@
+.section2 {
+  padding: 58px 0;
+}
+.section2Content {
+  max-width: 1022px;
+  margin: 0 auto;
+  display: flex;
+  gap: 53px;
+}
+.section2Text {
+  max-width: 302px;
+  color: #000;
+  font-family: "Aeonik";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: normal;
+}
+.section2Info {
+}
+.infoText {
+  margin-bottom: 46px;
+  max-width: 444px;
+  color: #000;
+  font-family: "Lora";
+  font-size: 25.55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.infoNav {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.infoNavText {
+  color: #000;
+  font-family: "Aeonik";
+  font-size: 14.194px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.infoNavBtn {
+  display: flex;
+  width: 21.292px;
+  height: 21.292px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+  .section2Content {
+    flex-direction: column;
+    padding-left: 26px;
+  }
+}

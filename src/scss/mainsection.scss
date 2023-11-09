@@ -1,0 +1,119 @@
+.mainSection {
+  background-color: #fcfcfc;
+  background-image: url("../../public/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 50%;
+  position: relative;
+}
+.mainSectionContent {
+  max-width: 1022px;
+  margin: 0 auto;
+  padding: 60px 0 0 0px;
+}
+.mainSectionTitle {
+  width: 425px;
+  margin-bottom: 36px;
+  margin-left: 26px;
+  color: #010101;
+  font-family: "Belleza";
+  font-size: 68.133px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.355px;
+}
+.mainSectionBtn {
+  display: flex;
+  width: 127px;
+  margin-left: 26px;
+  padding: 10.193px 19.706px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 27.181px;
+  background: #010101;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.mainSectionInfo {
+  padding: 40px 211px 40px 36px;
+  width: 536px;
+  height: 246px;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+.mainSectionText {
+  margin-bottom: 21px;
+  color: #000;
+  font-family: "Aeonik";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mainSectionTextSmall {
+  margin-bottom: 31px;
+  color: #000;
+  font-family: "Aeonik";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: normal;
+}
+.mainSectionLabels {
+  display: flex;
+  justify-content: space-between;
+}
+.label1 {
+  color: #000;
+  font-family: "Aeonik";
+  font-size: 25.55px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.label2 {
+  color: #000;
+  font-family: "Lora";
+  font-size: 25.55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media screen and (max-width: 992px) {
+  .mainSectionInfo {
+    padding: 40px 111px 40px 36px;
+    width: 436px;
+  }
+  .mainSectionTitle {
+    background-color: rgba($color: #fff, $alpha: 0.4);
+  }
+}
+@media screen and (max-width: 768px) {
+  .mainSectionInfo {
+    padding: 40px 51px 40px 36px;
+    width: 376px;
+    background-color: rgba($color: #fff, $alpha: 0.4);
+  }
+}
+@media screen and (max-width: 550px) {
+  .mainSection {
+    background-position: 80% 50%;
+  }
+  .mainSectionTitle {
+    margin-left: 10px;
+    width: 300px;
+    font-size: 40px;
+    background-color: rgba($color: #fff, $alpha: 0.6);
+  }
+  .mainSectionBtn {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .mainSectionInfo {
+    padding: 40px 51px 40px 16px;
+    width: 300px;
+    background-color: rgba($color: #fff, $alpha: 0.6);
+  }
+}
